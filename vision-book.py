@@ -19,7 +19,7 @@ response = model.generate_content(["Descreva todo texto e informações da foto 
 # response.resolve()
 
 description = response.text
-print("Resposta da pergunta", description)
+print("Resposta: ", description)
 
 
 def vocalizar_descricao():    
